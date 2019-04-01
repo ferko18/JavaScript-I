@@ -97,6 +97,11 @@ for (let i = 0; i < inventory.length; i++) {
   carModels.sort();
 }
 console.log(carModels);
+//===challenge 3 using map
+let carmodels2 =[] ;
+carmodels2 = inventory.map(e=>e.car_model)
+
+console.log(carmodels2.sort()+'-using map')
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
